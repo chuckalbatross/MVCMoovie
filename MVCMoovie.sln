@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6A650349-1FAA-41E0-82A0-4608FA4E312C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91D09100-9A1E-464A-A067-F69ECF9E7884}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVCMoovie", "src\MVCMoovie\MVCMoovie.xproj", "{EF1092B4-571C-4BC5-8C7E-57B7D0AE6905}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF1092B4-571C-4BC5-8C7E-57B7D0AE6905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1092B4-571C-4BC5-8C7E-57B7D0AE6905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1092B4-571C-4BC5-8C7E-57B7D0AE6905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1092B4-571C-4BC5-8C7E-57B7D0AE6905}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF1092B4-571C-4BC5-8C7E-57B7D0AE6905} = {6A650349-1FAA-41E0-82A0-4608FA4E312C}
+	EndGlobalSection
+EndGlobal
